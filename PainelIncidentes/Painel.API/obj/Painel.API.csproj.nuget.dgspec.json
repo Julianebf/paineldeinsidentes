@@ -25,7 +25,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Application/Painel.Application.csproj": {
+                "projectPath": "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Application/Painel.Application.csproj"
+              },
+              "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Infrastructure/Painel.Infrastructure.csproj": {
+                "projectPath": "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Infrastructure/Painel.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -47,6 +54,12 @@
               "target": "Package",
               "version": "[8.0.25, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.*, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -67,6 +80,200 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.419/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Application/Painel.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Application/Painel.Application.csproj",
+        "projectName": "Painel.Application",
+        "projectPath": "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Application/Painel.Application.csproj",
+        "packagesPath": "/home/juliane/.nuget/packages/",
+        "outputPath": "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/juliane/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Domain/Painel.Domain.csproj": {
+                "projectPath": "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Domain/Painel.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.419/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Domain/Painel.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Domain/Painel.Domain.csproj",
+        "projectName": "Painel.Domain",
+        "projectPath": "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Domain/Painel.Domain.csproj",
+        "packagesPath": "/home/juliane/.nuget/packages/",
+        "outputPath": "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/juliane/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.419/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Infrastructure/Painel.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Infrastructure/Painel.Infrastructure.csproj",
+        "projectName": "Painel.Infrastructure",
+        "projectPath": "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Infrastructure/Painel.Infrastructure.csproj",
+        "packagesPath": "/home/juliane/.nuget/packages/",
+        "outputPath": "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/juliane/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Domain/Painel.Domain.csproj": {
+                "projectPath": "/home/juliane/Projetos pessoais/paineldeinsidentes/PainelIncidentes/Painel.Domain/Painel.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
